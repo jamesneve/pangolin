@@ -13,7 +13,7 @@ func NewGreyScaleFilter(image image.Image) GreyScaleFilter {
 	return greyScaleFilter
 }
 
-func (f *GreyScaleFilter) GreyscaleFilter() image.Image {
+func (f *GreyScaleFilter) GreyscaleFilter() *image.Gray {
 	bounds := f.Image.Bounds()
 	w, h := bounds.Max.X, bounds.Max.Y
 	gray := image.NewGray(image.Rect(0, 0, w, h))

@@ -1,4 +1,4 @@
-package blurfilter
+package convolution
 
 import (
 	"image"
