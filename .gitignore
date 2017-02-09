@@ -1,3 +1,6 @@
 .DS_STORE
 
 *.png
+main.go
+
+.idea/
